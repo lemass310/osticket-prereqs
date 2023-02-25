@@ -20,13 +20,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>List of Steps</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install/Enable IIS with CGI
+- Download and install installation files
+- Open IIS and Register PHP
+- Dowanload osTicket
+- Enable extensions through IIS
+- Download and install HeidiSQL & create a new session + database
+- Set up osTicket in browser and install
 
 <h2>Installation Steps</h2>
 
@@ -72,7 +74,16 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
 New Permissions -> Everyone -> All
-
-
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open osTicket in browser: Open IIS -> Go to sites -> Default -> osTicket -> On the right, click “Browse *:80”
+  
+Continue setting up osTicket in browser by naming Helpdesk and creating a default email
+</p>
+<br />
+
