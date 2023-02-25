@@ -42,7 +42,8 @@ Install/Enable IIS in Windows with CGI: World Wide Web Services -> Application D
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create the directory C:\PHP then Download and install the following files: 
+<h2>Create the directory C:\PHP then Download and install the following files:</h2>
+
 - PHPManagerForIIS_V1.5.0.msi
 - rewrite_amd64_en-US.msi
 - (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
