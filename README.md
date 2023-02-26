@@ -22,6 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Steps</h2>
 
+- Create & launch virtual machine through Azure
 - Install/Enable IIS with CGI
 - Download and install installation files
 - Open IIS and Register PHP
@@ -32,6 +33,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Set up osTicket in browser and install
 
 <h2>Installation Steps</h2>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a Virtual Machine in Microsoft Azure, then launch it. 
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
