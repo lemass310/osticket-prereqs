@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vGYligU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create a Resourse Group & Virtual Machine in Microsoft Azure, then launch it. 
@@ -43,7 +43,7 @@ Create a Resourse Group & Virtual Machine in Microsoft Azure, then launch it.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/36AbBXR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install/Enable IIS in Windows with CGI: World Wide Web Services -> Application Development Features -> [X] CGI
@@ -51,7 +51,7 @@ Install/Enable IIS in Windows with CGI: World Wide Web Services -> Application D
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fhgHkQ2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h2>Create the directory C:\PHP then Download and install the following files:</h2>
@@ -65,7 +65,7 @@ Install/Enable IIS in Windows with CGI: World Wide Web Services -> Application D
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/moXzK8P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open IIS as an Admin and register PHP from within IIS, then reload IIS.
@@ -73,7 +73,7 @@ Open IIS as an Admin and register PHP from within IIS, then reload IIS.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UTIo3zk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download osTicket v1.15.8: Download osTicket-v.1.15.8.zip. Extract and copy “upload” folder to c:\inetpub\wwwroot
@@ -82,18 +82,18 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NxrnAJ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Reload IIS then go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
-Double-click PHP Manager. Click “Enable or disable an extension”
+On the right, click “Browse *:80” to launch osTicket installer in browser
+Back in IIS double-click PHP Manager. Click “Enable or disable an extension”
 Enable: php_imap.dll, php_intl.dll, php_opcache.dll
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t4PnmQr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Rename & assign permission to ost-cofig.php file
@@ -108,7 +108,7 @@ New Permissions -> Everyone -> All
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OIFA1sU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download and install HeidiSQL & create a new session + database:
@@ -120,7 +120,7 @@ Create a database called “osTicket”
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l7lE1k2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open osTicket in browser: Open IIS -> Go to sites -> Default -> osTicket -> On the right, click “Browse *:80”
